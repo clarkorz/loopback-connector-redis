@@ -15,11 +15,13 @@
   },
   "dependencies": {
     "async": "^0.9.0",
+    "debug": "^2.1.0",
+    "loopback-connector": "^1.2.0",
     "redis": "^0.12.1"
   },
   "devDependencies": {
-    "loopback-datasource-juggler": "^2.7.0",
-    "mocha": "~1.13.0",
+    "loopback-datasource-juggler": "^2.x.x",
+    "mocha": "^2.x.x",
     "should": "~1.2.2"
   },
   "license": {
