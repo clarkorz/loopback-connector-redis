@@ -2,3 +2,5 @@
 node_modules
 dump.rdb
 coverage
+
+test/*.local.*
