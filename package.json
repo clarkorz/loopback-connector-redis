@@ -1,7 +1,14 @@
 {
   "name": "loopback-connector-redis",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Redis connector for LoopBack",
+  "keywords": [
+    "StrongLoop Labs",
+    "LoopBack",
+    "Redis",
+    "Data source",
+    "connector"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "make test"
@@ -17,6 +24,20 @@
     "mocha": "^2.x.x",
     "should": "~1.2.2"
   },
-  "repository": "https://github.com/raymondfeng/loopback-connector-redis",
-  "license": "MIT"
+  "license": {
+    "name": "Dual MIT/StrongLoop",
+    "url": "https://github.com/strongloop/loopback-connector-redis/blob/master/LICENSE"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clarkorz/loopback-connector-redis.git"
+  },
+  "author": "StrongLoop <callback@strongloop.com>",
+  "bugs": {
+    "url": "https://github.com/strongloop/loopback-connector-redis/issues"
+  },
+  "homepage": "https://github.com/strongloop/loopback-connector-redis"
 }

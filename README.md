@@ -1,5 +1,7 @@
 ## loopback-connector-redis
 
+> **THIS MODULE IS PRE-RELEASE AND UNDER ACTIVE DEVELOPMENT**
+
 Redis connector for LoopBack.
 
 ## Usage
