@@ -1,6 +1,6 @@
 {
   "name": "loopback-connector-redis",
-  "version": "0.0.3",
+  "version": "0.0.4-0.0.2",
   "description": "Redis connector for LoopBack",
   "keywords": [
     "StrongLoop Labs",
@@ -14,14 +14,15 @@
     "test": "make test"
   },
   "dependencies": {
-    "async": "^0.9.0",
-    "redis": "^0.12.1"
+    "async": "~1.0.0",
+    "redis": "^2.2.5"
   },
   "devDependencies": {
-    "bluebird": "^2.9.0",
+    "bluebird": "^2.9.9",
+    "lodash": "^3.10.1",
     "loopback-datasource-juggler": "^2.7.0",
-    "mocha": "~1.13.0",
-    "should": "~1.2.2"
+    "mocha": "^2.1.0",
+    "should": "^5.0.0"
   },
   "license": "MIT",
   "directories": {
